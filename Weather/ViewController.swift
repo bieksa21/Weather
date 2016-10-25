@@ -19,8 +19,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        submit.layer.cornerRadius = 10
-        submit.clipsToBounds = true
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
